@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// les av bruker input
+Console.WriteLine("Write something in the console:");
+string? userInput = Console.ReadLine();
+
+// Ekko tilbake det bruker skrev inn
+Console.WriteLine("Echo: " + userInput);
